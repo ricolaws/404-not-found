@@ -79,6 +79,10 @@ h1 {
   color: var(--gray2);
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   width: 21.6rem;
   height: 6.8rem;
@@ -94,6 +98,12 @@ button {
   text-transform: uppercase;
   color: #ffffff;
   border: none;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background: #2b254e;
+  background: #ff6d5b;
 }
 
 .footer {
